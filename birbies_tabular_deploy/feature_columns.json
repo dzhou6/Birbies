@@ -1,0 +1,9 @@
+{
+  "columns": [
+    "temp",
+    "precip",
+    "month",
+    "day_of_year",
+    "target_raw"
+  ]
+}
