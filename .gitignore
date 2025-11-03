@@ -1,18 +1,14 @@
-# venv + OS
+# Model artifacts
+*.pt
+*.npz
+*.pkl
+
+# Local data
+*.csv
+*.xlsx
+
+# Environment files
 .venv/
 __pycache__/
-*.pyc
-.DS_Store
-
-# logs & artifacts
-app.log
-*.npz
-*.pt
-metrics.json
-
-# data
-data/
-*ebird*.csv
-*climate*.csv
-merged_for_inference.csv
+*.log
 
